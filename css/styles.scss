@@ -1,4 +1,19 @@
+// Grand Central Station, Main, Vertex, Canon, etc. 
+@import "normalize";
+@import "google-homepage";
+
+
 /* Styling */
 body {
-    background: yellow;
+    background: #e4f8ff;
+}
+
+// Stage (Parent)
+#stage {
+    position: relative;
+}
+
+// Child
+#stage svg {
+    position: absolute;
 }
